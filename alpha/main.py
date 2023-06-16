@@ -5,7 +5,7 @@ from aiogram.contrib.fsm_storage.memory import MemoryStorage
 
 logging.basicConfig(level=logging.INFO)
 
-bot_token = '5621047315:AAEvImga1iXXC9xyF2eLzDto6gpN36TU0w8'  # Replace with your Telegram bot token
+bot_token = 'token'  # Replace with your Telegram bot token
 bot = Bot(token=bot_token)
 storage = MemoryStorage()
 dp = Dispatcher(bot, storage=storage)
